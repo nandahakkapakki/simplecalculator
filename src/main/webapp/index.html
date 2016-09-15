@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>simple calculator</title>
+</head>
+<body>
+  <form>
+    enter no1:<input type="number" id="num1">
+     enter no2:<input type="number" id="num2">
+    <input type="button" value="ADD" onclick="add();">
+    
+  </form>
+                                                   
+                         <script>                                         
+    function add(){
+     var n1=document.getElememtById("num1").value;
+  var n2=document.getElememtById("num2").value;
+  var sum=n1+n2;
+  alert("the um is"+sum);
+  document.getElememtById("result").innertext=sum;
+  </script> 
+  
+  
+ }                                                               
+                                                                   
+
+</body>
+</html>
